@@ -51,7 +51,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
               className="flex gap-2 items-center mb-3"
             >
               <Image
-                src={post?.author?.image || <Skeleton /> || "/logo.png"}
+                src={post?.author?.image}
                 alt="avatar"
                 width={64}
                 height={64}
@@ -90,7 +90,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
             </ul>
           </div>
         )}
-        console.log( {post.image})
+
         <Suspense fallback={<Skeleton className="view_skeleton" />}>
           <View id={id} />
         </Suspense>

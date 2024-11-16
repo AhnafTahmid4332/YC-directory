@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "createdAt": "2024-11-16T08:22:23.854Z",
+  "workspaces": [
+    {
+      "name": "default",
+      "title": "Default",
+      "basePath": "/studio",
+      "dataset": "production",
+      "schema": "2d2f0561.create-schema.json"
+    }
+  ]
+}
